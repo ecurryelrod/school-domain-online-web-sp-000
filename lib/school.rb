@@ -22,6 +22,6 @@ class School
   end 
   
   def sorted_list_of_names
-    @roster[grade_level].sort
+    @roster[grade_level].each {|student_name| student_name.sort}
   end 
 end 

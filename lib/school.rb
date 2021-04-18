@@ -20,4 +20,8 @@ class School
   def grade(grade_level)
     @roster[grade_level]
   end 
+  
+  def sorted_list_of_names
+    @roster[grade_level].sort
+  end 
 end 

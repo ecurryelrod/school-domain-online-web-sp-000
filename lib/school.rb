@@ -21,7 +21,7 @@ class School
     @roster[grade_level]
   end 
   
-  def sorted_list_of_names
+  def sort
     @roster.each {|grade_level, student_name| @roster[grade_level] = student_name.sort}
   end 
 end 
